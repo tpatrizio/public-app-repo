@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: docker.io/ptrinchini/nginx:v0.1.0
+        image: ptrinchini/nginx:v0.1.0
         resources:
           limits:
             memory: "128Mi"
